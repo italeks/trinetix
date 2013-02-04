@@ -1,7 +1,7 @@
-/* нода и все чайлд : нода с ID=7*/
+/* нода и все чайлды : нода с ID=7*/
 SELECT id, NAME, LEVEL FROM items_tree WHERE left_key >= 24 AND right_key <= 31 ORDER BY left_key;
 
-/*добавление нод : нода с ID=16*/
+/*добавление ноды : нода с ID=16*/
 UPDATE items_tree 
 	SET left_key = left_key + 2, right_key = right_key + 2 
 	WHERE left_key > 29
@@ -13,7 +13,7 @@ UPDATE items_tree
 INSERT INTO items_tree 
 	SET left_key = 29, right_key = 29 + 1, LEVEL = 4 + 1 ;
 
-/*удалить ноду и ее чайлдов*/
+/*удалить ноду и ее чайлдов : нода с ID=17*/
 DELETE FROM items_tree 
 	WHERE left_key >= 29 AND right_key <= 30;
 		
