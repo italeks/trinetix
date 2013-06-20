@@ -1,6 +1,16 @@
 
-
+//new
 git init
 git status
+git remote add origin https://github.com/trinetix/trinetix.git
 git add git_help.txt
 git commit -m "message"
+git push -u origin master
+
+
+//update
+
+git add git_help.txt
+git commit -m "updated"
+git push -u origin master
+
