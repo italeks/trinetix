@@ -1,5 +1,5 @@
 /*
-SQLyog Community v10.51 
+SQLyog Community v10.51
 MySQL - 5.5.29-0ubuntu0.12.10.1 : Database - trinetix
 *********************************************************************
 */
@@ -7,12 +7,7 @@ MySQL - 5.5.29-0ubuntu0.12.10.1 : Database - trinetix
 
 SET NAMES utf8;
 
-/*!40101 SET SQL_MODE=''*/;
 
-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 CREATE DATABASE /*!32312 IF NOT EXISTS*/`trinetix` DEFAULT CHARACTER SET utf8 ;
 
 USE `trinetix`;
@@ -35,7 +30,3 @@ CREATE TABLE `items_tree` (
 
 insert  into `items_tree`(`id`,`name`,`left_key`,`right_key`,`level`) values (1,'Напитки',1,32,1),(2,'Соки',2,9,2),(3,'Газированые',10,23,2),(4,'Акогольные',24,31,2),(5,'Сандора',3,8,3),(6,'Кока-кола',11,12,3),(7,'Фанта',13,20,3),(8,'Спрайт',21,22,3),(9,'Водка',25,30,3),(10,'Сандора Томат',4,5,4),(11,'Сандора Березовый',6,7,4),(12,'Фанта апельсин',14,15,4),(13,'Фанта лимон',16,17,4),(14,'Фанта вишня',18,19,4),(15,'Хортица',26,27,4),(16,'Немиров',28,29,4);
 
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;

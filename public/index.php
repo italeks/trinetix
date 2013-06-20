@@ -1,6 +1,6 @@
 <?php
 
-require_once '../protected/settings.php';
+require_once dirname(dirname(__FILE__)) . '/protected/settings.php';
 require_once ROOT_FOLDER . '/core/database.php';
 
 function __autoload($className)
