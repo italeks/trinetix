@@ -1,0 +1,6 @@
+
+
+git init
+git status
+git add git_help.txt
+git commit -m "message"
